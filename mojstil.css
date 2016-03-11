@@ -1,0 +1,194 @@
+div {
+    border-radius:10px;
+    border:5px solid black;
+}
+
+#header{
+    height:80px;
+    position:relative;
+    clear:both;
+    background-color:#FF4D40;
+}
+
+
+#profil{
+    margin-top:7px;
+    margin-left:220px;
+    position:absolute;
+}
+
+h1{
+    font-size:38px;
+    font-family:Comic Sans MS;
+    font-weight:800;
+    color:black;
+    font-style: italic; 
+}
+
+.tazgorn {
+    width:330px;
+    height:80px;
+    margin-top:3px;
+    display:inline-block;
+    background-color:#ED1100;
+}
+
+
+#hrana {
+    position:absolute;
+    margin-top:7px;
+    margin-left:20px;
+}
+
+#hobiji {
+    position:absolute;
+    margin-left:100;
+    margin-top:10px;
+    
+    
+}
+#prijatelji {
+    position:absolute;
+    margin-left:90;
+    margin-top:10px;
+    
+    
+}
+#sovrazniki {
+    position:absolute;
+    margin-left:80px;
+    margin-top:10px;
+}
+
+h2{
+    font-size:35px;
+    font-family:Comic Sans MS;
+    font-weight:800;
+    color:#000;
+}
+
+h2.active{
+    background-color:#ED1100;
+    color:white;
+    font-style:italic;
+    text-decoration: underline;
+    font-weight:800;
+}
+
+h2:hover:not(.active) {
+    background-color: #ED1100;
+    color: white;
+    /*označi samo text, ker je background barva h2 bloka ista kot barva podlage */
+}
+
+.tadesni {
+    float:right;
+    width:75%;
+    margin-bottom:3px;
+    padding-left:230px;
+    padding-top:10px;
+    align-items: center;
+    margin-bottom:-99999px;
+    padding-bottom:99999px;
+    background-color:#FF4D40;
+
+}
+
+.talevi{
+    margin-bottom: 3px;
+    width:330px;
+    float:left;
+    margin-bottom:-99999px;
+    padding-bottom:99999px;
+    background-color:#FF766B;
+    
+    
+}
+
+ul{
+    list-style-type:none; /*odstrani buletse*/
+    margin:0;
+    padding:0; /*odstrani privzete nastavitve browserja*/
+    width:100%;
+    height:100%;
+    
+    font-size:38px;
+    font-family:Comic Sans MS;
+    
+}
+
+
+h3{
+    font-size:28px;
+    font-family:Comic Sans MS;
+    font-weight: 600;
+    color:black;
+    margin-left:-25px;
+}
+
+
+li a {
+    display:block;
+    color:#000;
+    padding:16px 0 8px 16px;
+    text-decoration:none;   
+}
+
+li a:hover {
+    background-color: #ED1100;
+    color: white;
+    /*zamenja barvo ko greš z miško gor*/
+}
+
+.papaninjo{
+    height:auto;
+    width:500px;
+    margin-top:-20px;
+    margin-bottom:20px;
+    margin-left:-25px;
+}
+    
+#footer{
+    height:80px;
+    margin-top:4px;
+    clear:both;
+    background-color:#FF4D40;
+}
+
+#futer{
+    position:absolute;
+    margin-top:0px;
+    margin-left:400px;
+    padding-top:10px;
+}
+
+.kontejner{
+    overflow:hidden;
+    border:none;
+}
+
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    /*ta koda je zato, da padding ne bi razširil div-a */
+}
+
+body{
+    background-color:black;
+}
+    
+     
+
+
+
+
+
+
+
+
+
+
+
